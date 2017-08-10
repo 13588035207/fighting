@@ -1,0 +1,110 @@
+/*css��д*/
+body{
+    margin:0 auto;
+}
+.nav,#main{
+    margin:0 auto;
+}
+div,span,b,dl{margin: 0;padding:0;}
+/*��������*/
+.nav{
+    width:1138px;
+    height:102px;
+    position:relative;
+}
+.nav span{
+    font-size:20px;
+    position:absolute;
+    top:25px;
+    padding:5px;
+}
+.nav span.first{
+    left:20px;
+}
+.nav span.second{
+     left:53px;
+ }
+.active{
+    background:#ED6493;
+    color:#fff;
+}
+.nav>div.order{
+    position:absolute;
+    top:29px;
+    left:365px;
+}
+.nav>div.order select{
+    width:101px;
+    height:26px;
+}
+.nav>div.show{
+    position:absolute;
+    top:29px;
+    left:628px;
+}
+.nav>div.show select{
+    width:55px;
+    height:26px
+}
+.nav>div.page{
+    position:absolute;
+    top:29px;
+    left:933px;
+}
+.nav>div.page>button{
+    width:24px;
+    height:24px;
+    margin:0 3px;
+    color:#DED6D6;
+    border:1px solid #DED6D6;
+    background:#fff;
+}
+/*���岿��*/
+#main>dl{
+    float:left;
+    height:661px;
+}
+#main>dl.mid{margin:0 13px;}
+#main>dl>dt{position:relative;}
+#main>dl>dt>b{
+    display:inline-block;
+    width:88px;
+    height:45px;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+}
+#main>dl>dd{
+    height:122px;
+    line-height:41px;
+    padding:20px 0;
+    position:relative;
+}
+#main>dl>dd>span{
+    position:absolute;
+    left:239px;
+}
+#main>dl>dd>s{
+    position:absolute;
+    left:314px;
+    color:#A5A5A5;
+}
+#main>dl>dd>b{
+    display:inline-block;
+    width:99px;
+    height:18px;
+    background-position:-10px -92px;
+}
+#main{
+    height:1324px;
+    width:1138px;
+}
+
+#banner-img{
+    width:1400px;
+    height:365px;
+    margin:20px auto;
+}
+.bgco-d8{
+    background:#D8D8D8;
+}

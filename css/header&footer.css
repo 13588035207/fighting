@@ -1,0 +1,106 @@
+ul,li,a,p,h1,h2,h3,h4,h5,body{
+    margin:0;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+}
+.width100{width:100%;}
+.w1123{width:1123px}
+.w420{width:420px}
+.mauto{margin:0 auto}
+.mt70{margin-top:70px}
+.mt25{margin-top:25px}
+.ml40{margin-left:40px}
+.mr40{margin-right:40px}
+.cwhite{color:white}
+.cddd{color:#ddd}
+.bgw{background:#fff}
+.bg36{background:#363636}
+.lh30{line-height:30px}
+.lh50{line-height:50px}
+.lh100{line-height:100px}
+.h50{height:50px}
+.h100{height:100px;}
+.fl{float:left}
+.rt{float:right}
+.tc{text-align: center}
+.tl{text-align:left}
+.tr{text-align:right}
+.overFlow{overflow: hidden}
+.rl{position:relative}
+.ab{position:absolute}
+.left50{left:50%}
+.top50{top:50%}
+.top25{top:35%}
+.bottom25{bottom:20%}
+.trans-50{transform:translate(-50%,-50%)}
+.l500{left:500px}
+
+
+.bgSearch{
+    display:block;
+    width:21px;
+    height:22px;
+    background:url('../img/search.png')no-repeat 0 0;
+}
+.topMenu li{
+    float:left;
+    width:33%;
+}
+.searchBox{
+    border:1px solid #ddd;
+    margin-left:5px;
+    color:#fff;
+    width:150px;
+    height:20px;
+    padding-left:10px;
+}
+.topMenuLogo li{
+    float:left;
+    width:33%;
+    left:50%;
+    transform: translate(-50%);
+}
+.topMenu img{
+    vertical-align: middle;
+    margin-right:15px;
+}
+.menuRight{
+    line-height: normal;
+}
+.headerTop a{
+    color:#fff;
+}
+.footerTop{
+    height:327px;
+    background:url('../img/footerbg.png')
+}
+.footerTopContent{
+    height:327px;
+    background:url('../img/footerbg2.png')
+
+}
+/*整体高度*/
+.w100b{width:100%}
+.w1138{width:1138px;}
+.w1000{width:1000px}
+.w200{width:200px}
+.pt140{padding-top:140px}
+.mt10{margin-top:10px}
+.mb50{margin-bottom:50px}
+.mtb30{margin-top:30px;margin-bottom:30px}
+.flexbet{display:flex;justify-content: space-between}
+.brand p{
+    color:#CD6289;
+    background:url(../img/brand_bottom_line.gif) no-repeat center bottom;
+}
+.fontwei{
+    font-weight:bold;
+}
+.h30{height:30px}
+.h500{height:500px}
+
+#header,#footer{
+    font: 14px "microsoft yahei", Arial, Helvetica, sans-serif;
+    color:#000;
+}

@@ -1,0 +1,70 @@
+html,body{
+    font-size: 14px;
+}
+.center{
+    width: 1140px;
+    min-height: 100px;
+    margin: auto;
+    padding-top: 70px;
+    padding-bottom:100px;
+    color:#A9A9A9;
+
+}
+.center p{
+    margin-bottom: 50px;
+}
+.center .list{
+    list-style: none;
+    width: 1140px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.center .list li{
+    width:555px;
+    height:37px;
+    line-height: 37px;
+    padding-left: 50px;
+    display: inline-block;
+    background-color: #F3F3F3;
+    border:1px solid #D8D8D8;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    color:#282828;
+    position: relative;
+    box-shadow: 2px 4px 6px #ddd;
+    cursor: pointer;
+}
+.center .list li a{
+    display: inline-block;
+    width: 35px;
+    height:35px;
+    position: absolute;
+    left: 5px;
+}
+.center .list .me_center{
+    background: url(../img/me_center.png) no-repeat;
+}
+.center .list .me_upwd{
+    background: url(../img/me_upwd.png) no-repeat;
+}
+.center .list .me_msg{
+    background: url(../img/me_msg.png) no-repeat;
+}
+.center .list .me_like{
+    background: url(../img/me_like.png) no-repeat;
+}
+.center .list .me_check{
+    background: url(../img/me_check.png) no-repeat;
+}
+.center .list li i{
+    display: inline-block;
+    width: 35px;
+    height:35px;
+    background: url(../img/login_down.png);
+    position: absolute;
+    right: 5px;
+}

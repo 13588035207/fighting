@@ -1,0 +1,27 @@
+#contact{
+    width:1123px;
+    margin:80px auto;
+    display:flex;
+    justify-content:space-between;
+    font-size:14px;
+    font-weight:bold;
+    font-family:"consolas","arial","sans-serif";
+}
+
+#contact span{
+    display:inline-block;
+    width:40px;
+    height:40px;
+    margin-right:10px;
+    position:relative;
+    top:15px;
+}
+.address{
+    background:url(../img/contact.png) no-repeat;
+}
+.phone{
+    background:url(../img/contact.png) no-repeat -40px 0;
+}
+.website{
+    background:url(../img/contact.png) no-repeat -80px 0;
+}

@@ -1,0 +1,124 @@
+
+ul,li,p {
+    margin:0;
+    padding:0;
+    border:none;
+    list-style:none;
+}
+section{
+    width: 1120px;
+    margin:0 auto;
+    font: 18px "microsoft yahei", Arial, Helvetica, sans-serif;
+    padding:0;
+    color:#222;
+}
+
+#about{
+    margin-top: 116px;
+}
+#about .main{
+    float: right;
+    width: 440px;
+    height:345px;
+    font-size:15px;
+    line-height:25px;
+    margin-right:20px;
+}
+#about .lh105{line-height:105px}
+.pink{
+    color: #D04879;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+#new{
+    margin-top: 105px;
+}
+#new-main{
+    width: 355px;
+}
+#new-main>ul>li{
+    text-align: left;
+    margin-top: 34px;
+}
+#new-main>h3{
+    margin-bottom: 0;
+}
+#new-main>span{
+    display: block;
+}
+#ugo-pic{
+    width: 720px;
+    float: right;
+}
+.m35{
+    float: right;
+}
+.ugo-img{
+    margin-top: 50px;
+}
+#adv>span{
+    display: block;
+}
+
+b{
+    display: inline-block;
+    width: 57px;
+    height: 57px;
+    position:relative;
+    top:-10px;
+}
+#adv-youshi ul li>span{
+    display: inline-block;
+    width: 105px;
+    margin-left: 30px;
+}
+.song>b{
+    background: url("../img/ogn_s.png" ) no-repeat -8px -8px;
+}
+.wang>b{
+    background: url("../img/ogn_s.png" ) no-repeat -8px -158px;
+}
+.jin>b{
+    background: url("../img/ogn_s.png" ) no-repeat -88px -8px;
+}
+.xin>b{
+    background: url("../img/ogn_s.png" ) no-repeat -88px -78px;
+}
+.zai>b{
+    background: url("../img/ogn_s.png" ) no-repeat -88px -158px;
+}
+.lip>b{
+    background: url("../img/ogn_s.png" ) no-repeat -8px -78px;
+}
+
+
+
+#adv{
+    margin-top:160px;
+}
+.mt40{margin-top:50px}
+#adv-youshi h1{
+    font-size:20px;
+    line-height:50px;
+    font-weight:400;
+    font-family:"microsoft yahei","arial","sans-serif";
+}
+#adv-youshi ul{
+    overflow:hidden;
+    margin-bottom:50px;
+}
+#adv-youshi ul li{
+    width:373px;
+    float:left;
+}
+
+
+
+

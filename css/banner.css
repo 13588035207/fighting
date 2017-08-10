@@ -1,0 +1,50 @@
+#banner-container *{ box-sizing:border-box}
+.h225{height:225px}
+.abso{position:absolute}
+.rela{position:relative}
+.bgco-e3{background:#E3E3E3}
+.banner-marker{
+    width:145px;
+    height:62px;
+    position:absolute;
+    top:50%;
+    transform:translatey(-50%);
+    border-left:3px solid #000;
+    padding-left:10px;
+}
+.banner-box{
+    position:relative;
+}
+.banner-marker p{
+    font-size:12px;
+}
+
+.flexh{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+#nav{
+    position:relative;
+    height:96px;
+}
+#nav>ul{
+    position:absolute;
+    top:0;right:0;
+    background:#000;
+    width:360px;height:96px;
+    z-index:5;
+    justify-content: space-around;
+}
+#nav li:first-child{
+    position:absolute;
+    right:100%;top:0;
+    width:0;
+    border:48px solid #000;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+}
+#nav a{
+    color:#fff;
+    line-height:96px;
+}

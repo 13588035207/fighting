@@ -1,0 +1,84 @@
+body{
+    font-size:14px;
+}
+*{
+    box-sizing: border-box;
+}
+.login{
+    width:1208px;
+    min-height:100px;
+    padding-top: 55px;
+    margin: auto;
+    display: flex;
+    color:#A9A9A9;
+    justify-content: space-between;
+}
+.login .login_box .title1{
+    padding-left: 35px;
+}
+.login .login_box input{
+    display: block;
+    width:388px;
+    height:35px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    border:1px solid #ddd;
+    padding-left: 20px;
+    color:#A9A9A9;
+}
+.login .login_box button{
+    border:1px solid #a9a9a9;
+    background-color: #fff;
+    color:#282828;
+    outline: none;
+}
+.login .login_box .hint{
+    padding-left: 20px;
+    margin-top: 0;
+    color:#e4393c;
+    opacity: 0;
+}
+.login .login_box .form1{
+    width:483px ;
+    height:254px;
+    border:1px solid #ddd;
+    padding: 30px;
+}
+.login .login_box .form1 input:first-child{
+    margin-bottom: 25px;
+}
+.login .login_box .form1 .forget{
+    display: block;
+    text-decoration: none;
+    color:#A9A9A9;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.login .login_box .form1 p{
+    margin-top: 0px;
+    padding-left: 20px;
+}
+.login .login_box .form1 button{
+    width:90px;
+    height:30px;
+    line-height: 30px;
+}
+.login .login_box .title2{
+    text-align: center;
+}
+.login .login_box .form2{
+    width:578px ;
+    height:353px;
+    border:1px solid #ddd;
+    padding-top: 30px;
+    padding-left: 100px;
+    position: relative;
+}
+.login .login_box .form2 button{
+    width: 75px;
+    height:30px;
+}
+.login .login_box .form2 button:last-child{
+    position: absolute;
+    right: 87px;
+}
